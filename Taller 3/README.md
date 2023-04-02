@@ -37,4 +37,10 @@ Los servidores se utilizan para alojar servicios y aplicaciones en línea, por l
 
 Los dispositivos móviles deben gestionar correctamente sus recursos para asegurar una buena duración de la batería y un rendimiento óptimo. Es importante administrar la memoria RAM para permitir la ejecución de múltiples aplicaciones y mejorar el rendimiento, el almacenamiento interno para almacenar archivos relevantes, la conectividad para mantenerse en línea y transferir datos, y la seguridad para proteger la privacidad del usuario y prevenir accesos no autorizados.
 
+### 3.	Caracterice dos casos de uso para implementar un OS para servidor y PC.
+
+El primer caso de uso se sitúa en una escuela que requiere un sistema operativo para sus servidores y computadoras personales que sea fácil de administrar. En cuanto al servidor, en este se requiere herramientas de colaboración y gestión de recursos para múltiples usuarios, mientras que en las computadoras personales se necesita software educativo.
+
+El segundo caso de uso se refiere a una empresa de comercio electrónico que necesita un sistema operativo para servidor y PC para alojar su sitio web de venta en línea y gestionar eficientemente todos los movimientos. Por parte del sistema operativo del servidor, este debe ser seguro, garantizar la privacidad y seguridad de los datos de los clientes. Por otro lado, para las computadoras personales se necesita un sistema operativo que ofrezca herramientas de gestión de ventas para los empleados de la empresa, con una interfaz de usuario intuitiva y que permita el control de inventario y seguimiento de transacciones.
+
 
