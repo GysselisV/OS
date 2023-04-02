@@ -135,7 +135,7 @@ En un sistema multiprocesador, mantener la coherencia de los datos de caché se 
 El problema de mantener la coherencia de los datos de caché en un sistema de un solo procesador se produce cuando la memoria caché y la memoria principal contienen diferentes valores de la misma ubicación de memoria. Si la caché no se actualiza correctamente, el procesador podría utilizar valores obsoletos y producir resultados incorrectos.
 
 ### Referencias 
-García , J., & Serra, J. (s.f.). https://rua.ua.es/dspace/bitstream/10045/15468/18/tema5.pdf. Obtenido de https://rua.ua.es/dspace/bitstream/10045/15468/18/tema5.pdf
+García , J., & Serra, J. (s.f.). Obtenido de https://rua.ua.es/dspace/bitstream/10045/15468/18/tema5.pdf
 
 IBM. (s.f.). ¿Qué es un mainframe? Obtenido de IBM: https://www.ibm.com/mx-es/topics/mainframe
 
