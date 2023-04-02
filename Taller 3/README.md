@@ -55,24 +55,20 @@ El segundo caso de uso se refiere a una empresa de comercio electrónico que nec
     <td>Un procesador puede estar diseñado para realizar una tarea específica de manera más eficiente que el resto.</td>
   </tr>
   <tr>
-    <td>Fila 2, Celda 1</td>
-    <td>Fila 2, Celda 2</td>
+    <td>procesadores idénticos comparten el mismo espacio de memoria</td>
+    <td>Procesadores pueden tener diferentes niveles de acceso a recursos compartidos como memoria</td>
   </tr>
   <tr>
-    <td>Fila 3, Celda 1</td>
-    <td>Fila 3, Celda 2</td>
+    <td>Mayor escalabilidad</td>
+    <td>Escalabilidad limita</td>
   </tr>
   <tr>
-    <td>Fila 4, Celda 1</td>
-    <td>Fila 4, Celda 2</td>
+    <td>la carga de trabajo se distribuye de manera uniforme</td>
+    <td>La carga de trabajo se asigna de manera desigual según las habilidades y capacidades de cada procesador</td>
   </tr>
   <tr>
-    <td>Fila 5, Celda 1</td>
-    <td>Fila 5, Celda 2</td>
-  </tr>
-  <tr>
-    <td>Fila 6, Celda 1</td>
-    <td>Fila 6, Celda 2</td>
+    <td>Todos los procesadores ejecutan tareas sobre el SO</td>
+    <td>Solo el procesador maestro ejecuta tareas sobre el SO</td>
   </tr>
 </table>
 
