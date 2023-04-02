@@ -47,12 +47,12 @@ El segundo caso de uso se refiere a una empresa de comercio electrónico que nec
 
 <table>
   <tr>
-    <th>Columna 1</th>
-    <th>Columna 2</th>
+    <th>Simétrico</th>
+    <th>Asimétrico </th>
   </tr>
   <tr>
-    <td>Fila 1, Celda 1</td>
-    <td>Fila 1, Celda 2</td>
+    <td>Los procesadores tienen la misma capacidad de procesamiento y pueden realizar las mismas tareas con la misma eficiencia</td>
+    <td>Un procesador puede estar diseñado para realizar una tarea específica de manera más eficiente que el resto.</td>
   </tr>
   <tr>
     <td>Fila 2, Celda 1</td>
