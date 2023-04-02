@@ -73,3 +73,14 @@ El segundo caso de uso se refiere a una empresa de comercio electrónico que nec
 </table>
 
 
+### 5.	Enumere los requerimientos para que dos máquinas se junten en un clúster y provean un servicio de alta disponibilidad (HA).
+
+Para que dos o más máquinas se unan en un clúster y proporcionen un servicio de alta disponibilidad, es necesario: 
+
+1.	Una red de alta velocidad y confiable para comunicación y sincronización de datos entre las máquinas.
+2.	Que las máquinas que integran el clúster cuenten con hardware compatible en arquitectura de CPU, capacidad de memoria y almacenamiento.
+3.	Instalar un software de clúster que permita a las máquinas trabajar en conjunto.
+4.	La sincronización de datos para asegurarse de que todas las máquinas del clúster tengan la misma información y configuración.
+5.	herramientas de monitoreo y administración para detección de fallos.
+6.	Para garantizar la continuidad del servicio en caso de fallas, es recomendable contar con componentes extra que puedan reemplazar a los componentes defectuosos.
+
