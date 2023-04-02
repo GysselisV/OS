@@ -46,7 +46,7 @@ El segundo caso de uso se refiere a una empresa de comercio electrónico que nec
 ### 4.	Compare las diferencias entre multiprocesamiento simétrico y asimétrico
 
 <table>
-  <tr class="cyan-bg">
+  <tr>
     <th>Simétrico</th>
     <th>Asimétrico </th>
   </tr>
@@ -72,6 +72,4 @@ El segundo caso de uso se refiere a una empresa de comercio electrónico que nec
   </tr>
 </table>
 
-.cyan-bg {
-  background-color: cyan;
-}
+
