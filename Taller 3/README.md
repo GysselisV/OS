@@ -108,3 +108,29 @@ Para que dos o más máquinas se unan en un clúster y proporcionen un servicio 
     <td>Tratamiento prioritario</td>
   </tr>
 </table>
+
+### 7.	El DMA (acceso directo a memoria) se usa en dispositivos I/O para evitar uso innecesario de la CPU. 
+
+*a)* ¿Como interactúa la CPU con el dispositivo para coordinar la transferencia? 
+
+La CPU es responsable de establecer la configuración inicial del controlador DMA para que este pueda llevar a cabo la transferencia de datos hacia o desde un dispositivo I/O. Además, la CPU indica la ubicación de la memoria donde se deben guardar los datos transferidos.
+
+*b)* ¿Como sabe la CPU que las operaciones de memoria se han completado?
+
+Cuando se completa la transferencia de datos, la CPU establece una señal de interrupción que activa el controlador DMA. Después, la CPU procesa la interrupción y verifica el estado del controlador DMA para confirmar que la transferencia se ha realizado correctamente. Así es como la CPU sabe que las operaciones de memoria se han completado en el dispositivo I/O. (García & Serra, s.f.).
+
+### 8.	Identifique dos razones por las que la cache es útil. ¿Qué problemas resuelve y causa?
+
+El uso de caché es útil para disminuir el tiempo de acceso a los datos y la cantidad de tráfico de memoria. La caché almacena datos frecuentemente utilizados en un lugar fácilmente accesible para el procesador, lo que agiliza el procesamiento y disminuye el tiempo de espera para acceder a los datos. Asimismo, la caché contribuye a reducir el tráfico de memoria, lo que resulta en una mejora del rendimiento general del sistema.
+
+### 9.	Explique con un ejemplo, como se manifiesta el problema de mantener la coherencia de los datos de cache en los siguientes entornos: 
+
+***Sistema distribuido***
+Cuando varios procesadores comparten los mismos datos en un sistema distribuido y cada uno tiene su propia caché, puede haber un problema de mantener la coherencia de los datos en caché. Supongamos que dos procesadores tienen una copia de la misma información almacenada en sus respectivas cachés, y uno de ellos la modifica. Si la caché del otro procesador no se actualiza, podría tener una versión antigua de la información, lo que puede causar errores en el procesamiento de la información. (Lisandro & Sumoza, s.f.).
+
+***Sistema multiprocesador***
+En un sistema multiprocesador, mantener la coherencia de los datos de caché se convierte en un problema cuando varios procesadores tienen acceso a la misma memoria principal y cada uno posee su propia caché. Si un procesador modifica los datos de la memoria principal, los demás procesadores deben actualizar su caché para tener los datos más recientes y evitar discrepancias en los resultados. Si no se logra esta actualización, el sistema puede presentar errores. (upc, 2023).
+
+***Sistema de un solo procesador***
+El problema de mantener la coherencia de los datos de caché en un sistema de un solo procesador se produce cuando la memoria caché y la memoria principal contienen diferentes valores de la misma ubicación de memoria. Si la caché no se actualiza correctamente, el procesador podría utilizar valores obsoletos y producir resultados incorrectos.
+
