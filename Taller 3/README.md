@@ -43,4 +43,36 @@ El primer caso de uso se sitúa en una escuela que requiere un sistema operativo
 
 El segundo caso de uso se refiere a una empresa de comercio electrónico que necesita un sistema operativo para servidor y PC para alojar su sitio web de venta en línea y gestionar eficientemente todos los movimientos. Por parte del sistema operativo del servidor, este debe ser seguro, garantizar la privacidad y seguridad de los datos de los clientes. Por otro lado, para las computadoras personales se necesita un sistema operativo que ofrezca herramientas de gestión de ventas para los empleados de la empresa, con una interfaz de usuario intuitiva y que permita el control de inventario y seguimiento de transacciones.
 
+### 4.	Compare las diferencias entre multiprocesamiento simétrico y asimétrico
+
+<table>
+  <tr>
+    <th>Columna 1</th>
+    <th>Columna 2</th>
+  </tr>
+  <tr>
+    <td>Fila 1, Celda 1</td>
+    <td>Fila 1, Celda 2</td>
+  </tr>
+  <tr>
+    <td>Fila 2, Celda 1</td>
+    <td>Fila 2, Celda 2</td>
+  </tr>
+  <tr>
+    <td>Fila 3, Celda 1</td>
+    <td>Fila 3, Celda 2</td>
+  </tr>
+  <tr>
+    <td>Fila 4, Celda 1</td>
+    <td>Fila 4, Celda 2</td>
+  </tr>
+  <tr>
+    <td>Fila 5, Celda 1</td>
+    <td>Fila 5, Celda 2</td>
+  </tr>
+  <tr>
+    <td>Fila 6, Celda 1</td>
+    <td>Fila 6, Celda 2</td>
+  </tr>
+</table>
 
