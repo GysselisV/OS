@@ -1,6 +1,6 @@
 ### 1. En entornos compartidos, los usuarios comparten el sistema. Esto puede dar lugar a varios problemas de seguridad. 
 
-*a)* Mencione dos problemas y explíquelos. 
+**a)** Mencione dos problemas y explíquelos. 
 
 ***Brechas de privacidad/seguridad***: Esto se da cuando usuarios con malas intenciones obtienen acceso a información confidencial de otros usuarios, es decir que podrían ver datos como correos electrónicos, documentos, números de contacto y demás datos personales que no deberían ser visibles para cualquiera. (Samaniego, 2021).
 
