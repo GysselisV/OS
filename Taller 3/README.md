@@ -84,3 +84,27 @@ Para que dos o más máquinas se unan en un clúster y proporcionen un servicio 
 5.	herramientas de monitoreo y administración para detección de fallos.
 6.	Para garantizar la continuidad del servicio en caso de fallas, es recomendable contar con componentes extra que puedan reemplazar a los componentes defectuosos.
 
+### 6.	Compare las diferencias entre una excepción y una interrupción.
+
+<table>
+  <tr>
+    <th>Excepción</th>
+    <th>Interrupción</th>
+  </tr>
+  <tr>
+    <td>Generada por programa </td>
+    <td>Generada por un evento externo </td>
+  </tr>
+  <tr>
+    <td>Puede ser predecible</td>
+    <td>Impredecible</td>
+  </tr>
+  <tr>
+    <td>No siempre conlleva a la detención del programa </td>
+    <td>Siempre conlleva a la detención del programa </td>
+  </tr>
+  <tr>
+    <td>Algunas veces puede esperar para su tratamiento</td>
+    <td>Tratamiento prioritario</td>
+  </tr>
+</table>
