@@ -9,7 +9,7 @@ Con esta vulnerabilidad se puede dar paso a un segundo problema que corresponde 
 
 
 
-*b)* Es posible asegurar el mismo grado de seguridad en un sistema compartido que en un sistema dedicado. Explique su respuesta.
+**b)** Es posible asegurar el mismo grado de seguridad en un sistema compartido que en un sistema dedicado. Explique su respuesta.
 
 Es más complejo alcanzar el mismo grado de seguridad en un sistema compartido que en uno dedicado. La razón es que, en un sistema dedicado, la seguridad está enfocada únicamente en el sistema en sí y en los usuarios que están autorizados -que regularmente son pocos-, es por ello por lo que hay menos peligros y existe una menor probabilidad de que ocurran vulnerabilidades (Rodriguez, 2021). Por otro lado, en un sistema compartido, el enfoque es un poco más amplio, ya que los usuarios tienen acceso a los mismos recursos y a la misma estructura, y, en consecuencia, existe una mayor probabilidad de que ocurran vacíos de seguridad.
 
@@ -111,11 +111,11 @@ Para que dos o más máquinas se unan en un clúster y proporcionen un servicio 
 
 ### 7.	El DMA (acceso directo a memoria) se usa en dispositivos I/O para evitar uso innecesario de la CPU. 
 
-*a)* ¿Como interactúa la CPU con el dispositivo para coordinar la transferencia? 
+**a)** ¿Como interactúa la CPU con el dispositivo para coordinar la transferencia? 
 
 La CPU es responsable de establecer la configuración inicial del controlador DMA para que este pueda llevar a cabo la transferencia de datos hacia o desde un dispositivo I/O. Además, la CPU indica la ubicación de la memoria donde se deben guardar los datos transferidos.
 
-*b)* ¿Como sabe la CPU que las operaciones de memoria se han completado?
+**b)** ¿Como sabe la CPU que las operaciones de memoria se han completado?
 
 Cuando se completa la transferencia de datos, la CPU establece una señal de interrupción que activa el controlador DMA. Después, la CPU procesa la interrupción y verifica el estado del controlador DMA para confirmar que la transferencia se ha realizado correctamente. Así es como la CPU sabe que las operaciones de memoria se han completado en el dispositivo I/O. (García & Serra, s.f.).
 
