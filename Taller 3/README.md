@@ -136,11 +136,19 @@ El problema de mantener la coherencia de los datos de caché en un sistema de un
 
 ### Referencias 
 García , J., & Serra, J. (s.f.). https://rua.ua.es/dspace/bitstream/10045/15468/18/tema5.pdf. Obtenido de https://rua.ua.es/dspace/bitstream/10045/15468/18/tema5.pdf
+
 IBM. (s.f.). ¿Qué es un mainframe? Obtenido de IBM: https://www.ibm.com/mx-es/topics/mainframe
+
 Intelligencia, B. d. (30 de noviembre de 2017). Guia sobre seguridad informática o ciberseguridad. Obtenido de Blog de la Intelligencia: http://blog.intelligenia.com/2017/11/guia-seguridad-informatica-ciberseguridad.html
+
 LAGE. (27 de agosto de 2019). ¿Qué es una workstation y para qué sirve? Obtenido de LAGE: https://www.lage.com.mx/blog/que-es-una-workstation-y-para-que-sirve
+
 Lisandro, J., & Sumoza, R. (s.f.). Cache memory coherence protocol for distributed systems. Obtenido de Scielo: http://ve.scielo.org/scielo.php?script=sci_arttext&pid=S0254-07702007000200008#:~:text=La%20distribuci%C3%B3n%20de%20la%20memoria%20cache%20en%20sistemas%20con%20memoria,los%20otros%20nodos%20del%20sistema.
+
 Rodriguez, A. (20 de diciembre de 2021). Seguridad Profesional hoy. Obtenido de Seguridad empresarial con servidores dedicados : https://www.seguridadprofesionalhoy.com/seguridad-empresarial-con-servidores-dedicados/
+
 Samaniego, J. F. (16 de diciembre de 2021). Willis Towers Whats. Obtenido de Ciberseguridad: Las brechas de datos en empresas más comunes : https://willistowerswatsonupdate.es/ciberseguridad/brechas-de-datos-en-empresas-mas-comunes/
+
 Santander, B. (s.f.). ¿Qué es la fuga de información? Obtenido de Banco Santander: https://www.bancosantander.es/glosario/fuga-datos#:~:text=Una%20fuga%20de%20datos%20o,personas%20no%20autorizadas%20para%20ello.
+
 upc. (2023). Introducción a los sistemas multiprocesadores. Obtenido de https://personals.ac.upc.edu/miguel/materiales/docencia/doctorado/introduccion.pdf
