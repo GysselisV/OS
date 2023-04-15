@@ -1,10 +1,10 @@
 ## 1. En entornos compartidos, los usuarios comparten el sistema. Esto puede dar lugar a varios problemas de seguridad. 
 
-**a)** Mencione dos problemas y explíquelos. 
+### 1. **Mencione dos problemas y explíquelos.** 
 
-***Brechas de privacidad/seguridad***: Esto se da cuando usuarios con malas intenciones obtienen acceso a información confidencial de otros usuarios, es decir que podrían ver datos como correos electrónicos, documentos, números de contacto y demás datos personales que no deberían ser visibles para cualquiera. (Samaniego, 2021).
+- **Brechas de privacidad/seguridad***: Esto se da cuando usuarios con malas intenciones obtienen acceso a información confidencial de otros usuarios, es decir que podrían ver datos como correos electrónicos, documentos, números de contacto y demás datos personales que no deberían ser visibles para cualquiera. (Samaniego, 2021).
 
-Con esta vulnerabilidad se puede dar paso a un segundo problema que corresponde a la ***fuga de información***, y es que, con el acceso de cualquier usuario a esos datos, se puede compartir información confidencial, como nombres de usuario, contraseñas, etc. Y esta información puede ser robada y utilizada para fines ilegales, como es el caso del robo de identidad, acceso no autorizado a redes sociales e incluso a cuentas bancarias. (Santander, s.f.)
+- Con esta vulnerabilidad se puede dar paso a un segundo problema que corresponde a la **fuga de información**, y es que, con el acceso de cualquier usuario a esos datos, se puede compartir información confidencial, como nombres de usuario, contraseñas, etc. Y esta información puede ser robada y utilizada para fines ilegales, como es el caso del robo de identidad, acceso no autorizado a redes sociales e incluso a cuentas bancarias. (Santander, s.f.)
 
 
 
@@ -15,7 +15,7 @@ Es más complejo alcanzar el mismo grado de seguridad en un sistema compartido q
 
 Ahora bien, lo anterior no quiere decir que resulte imposible lograr un alto grado de seguridad en un sistema compartido. Para garantizar que esto ocurra, se puede limitar el acceso, encriptar los datos, tener un sistema de autenticación de usuarios y realizar monitoreos constantemente (Intelligencia, 2017). Finalmente, es bastante importante que de manera conjunta se concientice a los usuarios sobre las buenas prácticas de seguridad informática. 
 
-### 2.	Un problema común en los OS es la utilización de recursos. Enumere los recursos que deben gestionarse en las siguientes maquina (explique porqué):
+## 2.	Un problema común en los OS es la utilización de recursos. Enumere los recursos que deben gestionarse en las siguientes maquina (explique porqué):
 
 ***Sistemas embebidos***: memoria, procesador, energía, almacenamiento y dispositivos de entrada/salida.
 
@@ -37,13 +37,13 @@ Los servidores se utilizan para alojar servicios y aplicaciones en línea, por l
 
 Los dispositivos móviles deben gestionar correctamente sus recursos para asegurar una buena duración de la batería y un rendimiento óptimo. Es importante administrar la memoria RAM para permitir la ejecución de múltiples aplicaciones y mejorar el rendimiento, el almacenamiento interno para almacenar archivos relevantes, la conectividad para mantenerse en línea y transferir datos, y la seguridad para proteger la privacidad del usuario y prevenir accesos no autorizados.
 
-### 3.	Caracterice dos casos de uso para implementar un OS para servidor y PC.
+## 3.	Caracterice dos casos de uso para implementar un OS para servidor y PC.
 
 El primer caso de uso se sitúa en una escuela que requiere un sistema operativo para sus servidores y computadoras personales que sea fácil de administrar. En cuanto al servidor, en este se requiere herramientas de colaboración y gestión de recursos para múltiples usuarios, mientras que en las computadoras personales se necesita software educativo.
 
 El segundo caso de uso se refiere a una empresa de comercio electrónico que necesita un sistema operativo para servidor y PC para alojar su sitio web de venta en línea y gestionar eficientemente todos los movimientos. Por parte del sistema operativo del servidor, este debe ser seguro, garantizar la privacidad y seguridad de los datos de los clientes. Por otro lado, para las computadoras personales se necesita un sistema operativo que ofrezca herramientas de gestión de ventas para los empleados de la empresa, con una interfaz de usuario intuitiva y que permita el control de inventario y seguimiento de transacciones.
 
-### 4.	Compare las diferencias entre multiprocesamiento simétrico y asimétrico
+## 4.	Compare las diferencias entre multiprocesamiento simétrico y asimétrico
 
 <table>
   <tr>
@@ -73,7 +73,7 @@ El segundo caso de uso se refiere a una empresa de comercio electrónico que nec
 </table>
 
 
-### 5.	Enumere los requerimientos para que dos máquinas se junten en un clúster y provean un servicio de alta disponibilidad (HA).
+## 5.	Enumere los requerimientos para que dos máquinas se junten en un clúster y provean un servicio de alta disponibilidad (HA).
 
 Para que dos o más máquinas se unan en un clúster y proporcionen un servicio de alta disponibilidad, es necesario: 
 
@@ -84,7 +84,7 @@ Para que dos o más máquinas se unan en un clúster y proporcionen un servicio 
 5.	herramientas de monitoreo y administración para detección de fallos.
 6.	Para garantizar la continuidad del servicio en caso de fallas, es recomendable contar con componentes extra que puedan reemplazar a los componentes defectuosos.
 
-### 6.	Compare las diferencias entre una excepción y una interrupción.
+## 6.	Compare las diferencias entre una excepción y una interrupción.
 
 <table>
   <tr>
@@ -109,7 +109,7 @@ Para que dos o más máquinas se unan en un clúster y proporcionen un servicio 
   </tr>
 </table>
 
-### 7.	El DMA (acceso directo a memoria) se usa en dispositivos I/O para evitar uso innecesario de la CPU. 
+## 7.	El DMA (acceso directo a memoria) se usa en dispositivos I/O para evitar uso innecesario de la CPU. 
 
 **a)** ¿Como interactúa la CPU con el dispositivo para coordinar la transferencia? 
 
@@ -119,11 +119,11 @@ La CPU es responsable de establecer la configuración inicial del controlador DM
 
 Cuando se completa la transferencia de datos, la CPU establece una señal de interrupción que activa el controlador DMA. Después, la CPU procesa la interrupción y verifica el estado del controlador DMA para confirmar que la transferencia se ha realizado correctamente. Así es como la CPU sabe que las operaciones de memoria se han completado en el dispositivo I/O. (García & Serra, s.f.).
 
-### 8.	Identifique dos razones por las que la cache es útil. ¿Qué problemas resuelve y causa?
+## 8.	Identifique dos razones por las que la cache es útil. ¿Qué problemas resuelve y causa?
 
 El uso de caché es útil para disminuir el tiempo de acceso a los datos y la cantidad de tráfico de memoria. La caché almacena datos frecuentemente utilizados en un lugar fácilmente accesible para el procesador, lo que agiliza el procesamiento y disminuye el tiempo de espera para acceder a los datos. Asimismo, la caché contribuye a reducir el tráfico de memoria, lo que resulta en una mejora del rendimiento general del sistema.
 
-### 9.	Explique con un ejemplo, como se manifiesta el problema de mantener la coherencia de los datos de cache en los siguientes entornos: 
+## 9.	Explique con un ejemplo, como se manifiesta el problema de mantener la coherencia de los datos de cache en los siguientes entornos: 
 
 ***Sistema distribuido***
 Cuando varios procesadores comparten los mismos datos en un sistema distribuido y cada uno tiene su propia caché, puede haber un problema de mantener la coherencia de los datos en caché. Supongamos que dos procesadores tienen una copia de la misma información almacenada en sus respectivas cachés, y uno de ellos la modifica. Si la caché del otro procesador no se actualiza, podría tener una versión antigua de la información, lo que puede causar errores en el procesamiento de la información. (Lisandro & Sumoza, s.f.).
