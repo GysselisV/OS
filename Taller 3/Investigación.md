@@ -1,4 +1,4 @@
-### 1. En entornos compartidos, los usuarios comparten el sistema. Esto puede dar lugar a varios problemas de seguridad. 
+## 1. En entornos compartidos, los usuarios comparten el sistema. Esto puede dar lugar a varios problemas de seguridad. 
 
 **a)** Mencione dos problemas y explíquelos. 
 
