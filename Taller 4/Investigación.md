@@ -30,9 +30,9 @@ El principal propósito del intérprete de comando es proporcionar una interfaz 
 El intérprete de comandos está separado del kernel por razones de seguridad. Al estar separado del kernel, el intérprete de comandos puede ejecutarse en un espacio de usuario protegido, lo que reduce el riesgo de que un error en el intérprete de comandos afecte al kernel y al sistema operativo en general. Además, al ser un componente separado, el intérprete de comandos puede ser reemplazado o actualizado sin afectar al kernel.
  
 3.	Liste los requisitos para desarrollar un intérprete de comandos.
-- Diseñar una sintaxis y semántica de comandos adecuada
-- Implementar un conjunto de comandos útiles que permitan a los usuarios realizar tareas comunes en el sistema operativo.
-- Implementar una interfaz de usuario adecuada.
-- El intérprete de comandos debe manejar errores de entrada del usuario y proporcionar mensajes de error útiles.
-- Proporcionar una manera de personalizar el intérprete de comandos
-- Documentación: Es importante documentar el intérprete de comandos para que los usuarios puedan comprender su funcionamiento y utilizarlo de manera adecuada. 
+ - Diseñar una sintaxis y semántica de comandos adecuada
+ - Implementar un conjunto de comandos útiles que permitan a los usuarios realizar tareas comunes en el sistema operativo.
+ - Implementar una interfaz de usuario adecuada.
+ - El intérprete de comandos debe manejar errores de entrada del usuario y proporcionar mensajes de error útiles.
+ - Proporcionar una manera de personalizar el intérprete de comandos
+ - Documentación: Es importante documentar el intérprete de comandos para que los usuarios puedan comprender su funcionamiento y utilizarlo de manera adecuada. 
