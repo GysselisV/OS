@@ -26,9 +26,9 @@ Los dispositivos móviles deben gestionar correctamente sus recursos para asegur
 
 ## 3.	Caracterice dos casos de uso para implementar un OS para servidor y PC.
 
-El primer caso de uso se sitúa en una escuela que requiere un sistema operativo para sus servidores y computadoras personales que sea fácil de administrar. En cuanto al servidor, en este se requiere herramientas de colaboración y gestión de recursos para múltiples usuarios, mientras que en las computadoras personales se necesita software educativo.
+- El primer caso de uso se sitúa en una escuela que requiere un sistema operativo para sus servidores y computadoras personales que sea fácil de administrar. En cuanto al servidor, en este se requiere herramientas de colaboración y gestión de recursos para múltiples usuarios, mientras que en las computadoras personales se necesita software educativo.
 
-El segundo caso de uso se refiere a una empresa de comercio electrónico que necesita un sistema operativo para servidor y PC para alojar su sitio web de venta en línea y gestionar eficientemente todos los movimientos. Por parte del sistema operativo del servidor, este debe ser seguro, garantizar la privacidad y seguridad de los datos de los clientes. Por otro lado, para las computadoras personales se necesita un sistema operativo que ofrezca herramientas de gestión de ventas para los empleados de la empresa, con una interfaz de usuario intuitiva y que permita el control de inventario y seguimiento de transacciones.
+- El segundo caso de uso se refiere a una empresa de comercio electrónico que necesita un sistema operativo para servidor y PC para alojar su sitio web de venta en línea y gestionar eficientemente todos los movimientos. Por parte del sistema operativo del servidor, este debe ser seguro, garantizar la privacidad y seguridad de los datos de los clientes. Por otro lado, para las computadoras personales se necesita un sistema operativo que ofrezca herramientas de gestión de ventas para los empleados de la empresa, con una interfaz de usuario intuitiva y que permita el control de inventario y seguimiento de transacciones.
 
 ## 4.	Compare las diferencias entre multiprocesamiento simétrico y asimétrico
 
@@ -64,12 +64,12 @@ El segundo caso de uso se refiere a una empresa de comercio electrónico que nec
 
 Para que dos o más máquinas se unan en un clúster y proporcionen un servicio de alta disponibilidad, es necesario: 
 
-1.	Una red de alta velocidad y confiable para comunicación y sincronización de datos entre las máquinas.
-2.	Que las máquinas que integran el clúster cuenten con hardware compatible en arquitectura de CPU, capacidad de memoria y almacenamiento.
-3.	Instalar un software de clúster que permita a las máquinas trabajar en conjunto.
-4.	La sincronización de datos para asegurarse de que todas las máquinas del clúster tengan la misma información y configuración.
-5.	herramientas de monitoreo y administración para detección de fallos.
-6.	Para garantizar la continuidad del servicio en caso de fallas, es recomendable contar con componentes extra que puedan reemplazar a los componentes defectuosos.
+1. Una red de alta velocidad y confiable para comunicación y sincronización de datos entre las máquinas.
+2. Que las máquinas que integran el clúster cuenten con hardware compatible en arquitectura de CPU, capacidad de memoria y almacenamiento.
+3. Instalar un software de clúster que permita a las máquinas trabajar en conjunto.
+4. La sincronización de datos para asegurarse de que todas las máquinas del clúster tengan la misma información y configuración.
+5. herramientas de monitoreo y administración para detección de fallos.
+6. Para garantizar la continuidad del servicio en caso de fallas, es recomendable contar con componentes extra que puedan reemplazar a los componentes defectuosos.
 
 ## 6.	Compare las diferencias entre una excepción y una interrupción.
 
@@ -98,12 +98,10 @@ Para que dos o más máquinas se unan en un clúster y proporcionen un servicio 
 
 ## 7.	El DMA (acceso directo a memoria) se usa en dispositivos I/O para evitar uso innecesario de la CPU. 
 
-**a)** ¿Como interactúa la CPU con el dispositivo para coordinar la transferencia? 
-
+- **¿Como interactúa la CPU con el dispositivo para coordinar la transferencia?**
 La CPU es responsable de establecer la configuración inicial del controlador DMA para que este pueda llevar a cabo la transferencia de datos hacia o desde un dispositivo I/O. Además, la CPU indica la ubicación de la memoria donde se deben guardar los datos transferidos.
 
-**b)** ¿Como sabe la CPU que las operaciones de memoria se han completado?
-
+- **¿Como sabe la CPU que las operaciones de memoria se han completado?**
 Cuando se completa la transferencia de datos, la CPU establece una señal de interrupción que activa el controlador DMA. Después, la CPU procesa la interrupción y verifica el estado del controlador DMA para confirmar que la transferencia se ha realizado correctamente. Así es como la CPU sabe que las operaciones de memoria se han completado en el dispositivo I/O. (García & Serra, s.f.).
 
 ## 8.	Identifique dos razones por las que la cache es útil. ¿Qué problemas resuelve y causa?
@@ -112,13 +110,13 @@ El uso de caché es útil para disminuir el tiempo de acceso a los datos y la ca
 
 ## 9.	Explique con un ejemplo, como se manifiesta el problema de mantener la coherencia de los datos de cache en los siguientes entornos: 
 
-***Sistema distribuido***
+- ***Sistema distribuido***
 Cuando varios procesadores comparten los mismos datos en un sistema distribuido y cada uno tiene su propia caché, puede haber un problema de mantener la coherencia de los datos en caché. Supongamos que dos procesadores tienen una copia de la misma información almacenada en sus respectivas cachés, y uno de ellos la modifica. Si la caché del otro procesador no se actualiza, podría tener una versión antigua de la información, lo que puede causar errores en el procesamiento de la información. (Lisandro & Sumoza, s.f.).
 
-***Sistema multiprocesador***
+- ***Sistema multiprocesador***
 En un sistema multiprocesador, mantener la coherencia de los datos de caché se convierte en un problema cuando varios procesadores tienen acceso a la misma memoria principal y cada uno posee su propia caché. Si un procesador modifica los datos de la memoria principal, los demás procesadores deben actualizar su caché para tener los datos más recientes y evitar discrepancias en los resultados. Si no se logra esta actualización, el sistema puede presentar errores. (upc, 2023).
 
-***Sistema de un solo procesador***
+- ***Sistema de un solo procesador***
 El problema de mantener la coherencia de los datos de caché en un sistema de un solo procesador se produce cuando la memoria caché y la memoria principal contienen diferentes valores de la misma ubicación de memoria. Si la caché no se actualiza correctamente, el procesador podría utilizar valores obsoletos y producir resultados incorrectos.
 
 ### Referencias 
