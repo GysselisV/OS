@@ -24,8 +24,8 @@
 <table>
   <thead>
     <tr>
-      <th>**Ventajas**</th>
-      <th>**Desventajas**</th>
+      <th>Ventajas</th>
+      <th>Desventajas</th>
     </tr>
   </thead>
   <tbody>
@@ -78,8 +78,8 @@ El intérprete de comandos está separado del kernel por razones de seguridad. A
 <table>
   <thead>
     <tr>
-      <th>**Paso de mensajes**</th>
-      <th>**Memoria compartida**</th>
+      <th>Paso de mensajes</th>
+      <th>Memoria compartida</th>
     </tr>
   </thead>
   <tbody>
@@ -137,3 +137,32 @@ los programas de usuario interactúan con los servicios del sistema operativo me
 
 - ¿Cuáles son las desventajas de usar la arquitectura de microkernel? –
 Las desventajas de usar una arquitectura de microkernel incluyen un mayor costo en términos de rendimiento y complejidad. Debido a que los diferentes componentes del sistema operativo están separados y se comunican mediante llamadas al sistema, puede haber una sobrecarga adicional en términos de tiempo y recursos necesarios para procesar las solicitudes. Además, debido a la modularidad y flexibilidad del diseño, puede haber una mayor complejidad en la implementación y gestión del sistema operativo.
+
+## 9.	Compare las ventajas y desventajas de usar VM
+<table>
+  <thead>
+    <tr>
+      <th>Ventajas</th>
+      <th>Desventajas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Proporcionan un entorno aislado para ejecutar programas y sistemas operativos</td>
+      <td>Mayor consumo de recursos </td>
+    </tr>
+    <tr>
+      <td>Permite ejecutar programas que de otra manera no serían compatibles con el sistema operativo anfitrión</td>
+      <td>Mayor complejidad en la gestión y configuración de recursos, lo que puede requerir habilidades y conocimientos adicionales.</td>
+    </tr>
+    <tr>
+      <td>Una fácil migración de recursos</td>
+      <td>Puede haber problemas de compatibilidad</td>
+    </tr>
+    <tr>
+      <td>Permite el uso eficiente de los recursos, lo que puede reducir los costos de hardware y energía</td>
+      <td>Puede darse una sobrecarga de rendimiento</td>
+    </tr>
+  </tbody>
+</table>
+
