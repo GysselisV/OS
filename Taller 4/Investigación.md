@@ -160,7 +160,7 @@ Las desventajas de usar una arquitectura de microkernel incluyen un mayor costo 
       <td>Puede haber problemas de compatibilidad</td>
     </tr>
     <tr>
-      <td>Permite el uso eficiente de los recursos, lo que puede reducir los costos de hardware y energía</td>
+      <td>Reduce costos</td>
       <td>Puede darse una sobrecarga de rendimiento</td>
     </tr>
   </tbody>
