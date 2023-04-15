@@ -21,6 +21,32 @@
 5.	Respaldo de archivos: lo que permite garantizar que los datos no se pierdan en caso de fallas del sistema o errores humanos. 
 
 ## 5.	Compare las ventajas y desventajas de usar la misma interfaz de llamadas al sistema para la manipulación de archivos como de dispositivos. 
+<table>
+  <thead>
+    <tr>
+      <th>Ventajas</th>
+      <th>Desventajas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Facilidad de uso</td>
+      <td>Falta de flexibilidad</td>
+    </tr>
+    <tr>
+      <td>Simplifica el desarrollo</td>
+      <td>Menos eficiente</td>
+    </tr>
+    <tr>
+      <td>Reduce la complejidad del sistema operativo</td>
+      <td>Complejidad en el manejo de errores</td>
+    </tr>
+    <tr>
+      <td>Consistencia en la forma en que el usuario interactúa con el sistema operativo</td>
+      <td>Puede haber sobrecarga en el sistema</td>
+    </tr>
+  </tbody>
+</table>
 
 
 ## 6.	Conteste las siguientes preguntas: 
