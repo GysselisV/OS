@@ -24,8 +24,8 @@
 <table>
   <thead>
     <tr>
-      <th>Ventajas</th>
-      <th>Desventajas</th>
+      <th>**Ventajas**</th>
+      <th>**Desventajas**</th>
     </tr>
   </thead>
   <tbody>
@@ -74,9 +74,58 @@ El intérprete de comandos está separado del kernel por razones de seguridad. A
 </ol>
 
 
- 
-
 ## 7.	Compare las ventajas y desventajas de los modelos de intercomunicación.
+<table>
+  <thead>
+    <tr>
+      <th>**Paso de mensajes**</th>
+      <th>**Memoria compartida**</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ventajas</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Permite la comunicación entre procesos en diferentes sistemas</td>
+      <td>Permite una comunicación rápida entre procesos en el mismo sistema</td>
+    </tr>
+    <tr>
+      <td>Proporciona un alto nivel de abstracción y facilidad de uso</td>
+      <td>Proporciona un alto grado de flexibilidad y control</td>
+    </tr>
+    <tr>
+      <td>Flexibilidad para admitir diferentes tipos de intercambio de datos</td>
+      <td>Facilidad para compartir datos entre procesos</td>
+    </tr>
+    <tr>
+      <td>Facilidad de implementación</td>
+      <td>Eficiencia en la comunicación de datos</td>
+    </tr>
+    <tr>
+      <td>Desventajas</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Puede ser más lento que otros modelos debido al tiempo necesario para enviar y recibir mensajes.</td>
+      <td>Puede ser más difícil de usar y entender que otros modelos.</td>
+    </tr>
+    <tr>
+      <td>Puede ser más difícil de depurar.</td>
+      <td>Puede presentar problemas de sincronización y consistencia de datos.</td>
+    </tr>
+    <tr>
+      <td>Necesidad de traducir los datos de un formato a otro</td>
+      <td>Complejidad de la implementación</td>
+    </tr>
+    <tr>
+      <td>Problemas de rendimiento</td>
+      <td>Necesidad de sincronización</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## 8.	Conteste las siguientes preguntas: 
 - ¿Cuál es la principal ventaja de usar microkernel en el diseño del OS? 
