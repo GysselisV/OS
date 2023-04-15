@@ -36,3 +36,16 @@ El intérprete de comandos está separado del kernel por razones de seguridad. A
  - El intérprete de comandos debe manejar errores de entrada del usuario y proporcionar mensajes de error útiles.
  - Proporcionar una manera de personalizar el intérprete de comandos
  - Documentación: Es importante documentar el intérprete de comandos para que los usuarios puedan comprender su funcionamiento y utilizarlo de manera adecuada. 
+
+## 7.	Compare las ventajas y desventajas de los modelos de intercomunicación.
+
+## 8.	Conteste las siguientes preguntas: 
+- ¿Cuál es la principal ventaja de usar microkernel en el diseño del OS? 
+La principal ventaja de usar un microkernel es la modularidad y la flexibilidad. Un microkernel es un kernel que proporciona solo los servicios básicos del sistema operativo, como la gestión de memoria y la comunicación entre procesos. Los demás servicios del sistema operativo, como la gestión de archivos y la interfaz de usuario, se implementan como programas separados que se ejecutan en el espacio de usuario. Esto permite que el sistema operativo sea más modular y flexible, ya que los diferentes componentes pueden ser reemplazados o actualizados sin afectar al resto del sistema.
+
+
+- ¿Cómo interactúan los programas de usuario y los servicios del OS en una arquitectura basada en microkernel? 
+los programas de usuario interactúan con los servicios del sistema operativo mediante el uso de llamadas al sistema. Las llamadas al sistema son una interfaz entre el espacio de usuario y el espacio del kernel que permite a los programas de usuario solicitar servicios del sistema operativo. Cuando un programa de usuario realiza una llamada al sistema, el microkernel recibe la solicitud y la procesa, proporcionando el servicio solicitado al programa de usuario.
+
+- ¿Cuáles son las desventajas de usar la arquitectura de microkernel? –
+Las desventajas de usar una arquitectura de microkernel incluyen un mayor costo en términos de rendimiento y complejidad. Debido a que los diferentes componentes del sistema operativo están separados y se comunican mediante llamadas al sistema, puede haber una sobrecarga adicional en términos de tiempo y recursos necesarios para procesar las solicitudes. Además, debido a la modularidad y flexibilidad del diseño, puede haber una mayor complejidad en la implementación y gestión del sistema operativo.
