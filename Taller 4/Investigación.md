@@ -22,6 +22,7 @@
 
 ## 5.	Compare las ventajas y desventajas de usar la misma interfaz de llamadas al sistema para la manipulación de archivos como de dispositivos. 
 
+
 ## 6.	Conteste las siguientes preguntas: 
 
 <ol>
