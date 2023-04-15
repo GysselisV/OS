@@ -9,24 +9,19 @@
 
 ## 2.	Un problema común en los OS es la utilización de recursos. Enumere los recursos que deben gestionarse en las siguientes maquina (explique porqué):
 
-***Sistemas embebidos***: memoria, procesador, energía, almacenamiento y dispositivos de entrada/salida.
-
+- ***Sistemas embebidos***: memoria, procesador, energía, almacenamiento y dispositivos de entrada/salida.
 Generalmente estos sistemas tienen recursos limitados y, regularmente, son utilizados en aplicaciones críticas en las que la disponibilidad, la fiabilidad y la eficiencia son esenciales. Deben ser gestionados cuidadosamente debido a las limitaciones de espacio y energía.
 
-***Mainframe***: CPU, memoria, almacenamiento, red y seguridad.
-
+- ***Mainframe***: CPU, memoria, almacenamiento, red y seguridad.
 En los mainframes, la gestión de recursos es fundamental debido a que varias personas los usan simultáneamente (IBM, s.f.), lo que puede afectar su eficiencia. Además, los mainframes se utilizan comúnmente para procesar información financiera y almacenar datos de clientes, por lo que la seguridad también es esencial.
 
-***Workstation***: procesador, memoria, almacenamiento, tarjeta gráfica, dispositivos periféricos y seguridad.
-
+- ***Workstation***: procesador, memoria, almacenamiento, tarjeta gráfica, dispositivos periféricos y seguridad.
 Las workstations son comúnmente empleadas en campos como ingeniería, arquitectura, animación, diseño gráfico y edición de video, por lo que necesitan características técnicas superiores a las de una computadora de escritorio común, con procesadores más poderosos, más memoria RAM, tarjetas gráficas especializadas, monitores de alta resolución y almacenamiento veloz. (LAGE, 2019).
 
-***Servidor***: CPU, memoria, almacenamiento, red, seguridad y balanceo de carga.
-
+- ***Servidor***: CPU, memoria, almacenamiento, red, seguridad y balanceo de carga.
 Los servidores se utilizan para alojar servicios y aplicaciones en línea, por lo que es esencial administrar la memoria, el almacenamiento y la red para procesar las solicitudes de los clientes y almacenar grandes cantidades de datos. Además, se debe implementar medidas de seguridad sólidas para proteger la información sensible y crítica almacenada en el servidor.
 
-***Mobile***: CPU, memoria, almacenamiento, batería, conectividad y seguridad.
-
+- ***Mobile***: CPU, memoria, almacenamiento, batería, conectividad y seguridad.
 Los dispositivos móviles deben gestionar correctamente sus recursos para asegurar una buena duración de la batería y un rendimiento óptimo. Es importante administrar la memoria RAM para permitir la ejecución de múltiples aplicaciones y mejorar el rendimiento, el almacenamiento interno para almacenar archivos relevantes, la conectividad para mantenerse en línea y transferir datos, y la seguridad para proteger la privacidad del usuario y prevenir accesos no autorizados.
 
 ## 3.	Caracterice dos casos de uso para implementar un OS para servidor y PC.
