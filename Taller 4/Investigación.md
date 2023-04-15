@@ -1,3 +1,14 @@
 ## 1.	Las funciones y servicios proporcionados por el OS pueden dividirse en dos categorías, descríbalas.
 - **Los servicios para el usuario:** son aquellos que están destinados a mejorar la experiencia del usuario al interactuar con el sistema operativo. Estos servicios incluyen la interfaz de usuario que proporciona una forma fácil para que el usuario interactúe con el sistema operativo y ejecute programas, también está la gestión de archivos permite al usuario crear, eliminar y modificar archivos en el sistema.
 - **Los servicios para el sistema:**  son aquellos que están destinados a garantizar el correcto funcionamiento del sistema operativo y de los programas que se ejecutan en él. Aquí se incluye, la gestión de recursos se encarga de asignar los recursos del sistema (como la memoria y el procesador) a los diferentes programas que se ejecutan en el sistema. La seguridad y la protección son responsables de garantizar que solo los usuarios autorizados tengan acceso a los recursos del sistema y de prevenir ataques malintencionados.
+
+## 2.	Enumere cinco servicios proporcionados por el OS diseñados para facilitar la comodidad del usuario. 
+1.	Interfaz de usuario: Proporciona una forma fácil e intuitiva para que el usuario interactúe con el sistema operativo y ejecute programas.
+2.	Gestión de archivos: Permite al usuario crear, eliminar y modificar archivos en el sistema.
+3.	Multitarea: permite que los usuarios ejecuten múltiples programas al mismo tiempo.
+4.	Controladores de dispositivos: permiten que el sistema operativo se comunique con los dispositivos de hardware conectados al equipo.
+5.	Comunicación entre procesos: Permite que diferentes programas se comuniquen entre sí y compartan información.
+
+## 3.	Describa como se puede generar un informe estadístico de la cantidad de tiempo y recursos consumidos por un programa. 
+<p>El sistema operativo puede llevar un historial de la información relevante mientras el programa se está ejecutando. Se puede analizar los registros de actividad de una aplicación sobre el tiempo que se tarda en realizar cada operación y la cantidad de recursos que se utiliza en cada operación. Se pueden utilizar herramientas de monitoreo de recursos como el Administrador de tareas en Windows o el Monitor de actividad en macOS. Estas herramientas permiten ver el uso del procesador, la memoria y el disco duro por parte del programa en tiempo real y también pueden generar informes detallados sobre el uso de recursos durante un período determinado.</p>
+<p>Una vez recopilados los datos de rendimiento, se pueden generar informes estadísticos utilizando herramientas de análisis de datos, como hojas de cálculo y software de análisis de datos. Estos informes pueden incluir gráficos y tablas que muestran la cantidad de tiempo y recursos utilizados por cada función y operación del programa.</p>
