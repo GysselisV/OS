@@ -57,32 +57,32 @@ En ambos casos, la planificación a medio plazo puede ayudar a mejorar la eficie
 ## 6.	Defina las ventajas y desventajas desde el punto de vista del OS para mensajes de tamaño fijo y de tamaño variable.
 <table>
   <tr>
-    <th>Columna 1</th>
-    <th>Columna 2</th>
+    <th>Mensajes de tamaño fijo</th>
+    <th>Mensajes de tamaño variable</th>
   </tr>
   <tr>
-    <td>Fila 1, columna 1</td>
-    <td>Fila 1, columna 2</td>
+    <td>Ventajas</td>
+    <td></td>
   </tr>
   <tr>
-    <td>Fila 2, columna 1</td>
-    <td>Fila 2, columna 2</td>
+    <td>Se puede simplificar el manejo de la asignación de memoria y hacerlo más predecible</td>
+    <td>El sistema operativo solo asigna la cantidad de memoria necesaria para almacenar los datos del mensaje, evitando así el desperdicio de memoria.</td>
   </tr>
   <tr>
-    <td>Fila 3, columna 1</td>
-    <td>Fila 3, columna 2</td>
+    <td>El sistema operativo puede realizar operaciones de lectura y escritura de manera más eficiente en la red o en el disco</td>
+    <td>Se puede ajustar el tamaño del mensaje según la cantidad de datos que se deseen enviar, lo que permite enviar grandes cantidades de datos sin limitaciones de tamaño predefinidas.</td>
   </tr>
   <tr>
-    <td>Fila 4, columna 1</td>
-    <td>Fila 4, columna 2</td>
+    <td>Desventajas</td>
+    <td></td>
   </tr>
   <tr>
-    <td>Fila 5, columna 1</td>
-    <td>Fila 5, columna 2</td>
+    <td>Desaprovechamiento de memoria en caso de que el mensaje no ocupe todo el espacio reservado</td>
+    <td>Requieren que el OS realice operaciones de asignación de memoria más complejas y menos predecibles.</td>
   </tr>
   <tr>
-    <td>Fila 6, columna 1</td>
-    <td>Fila 6, columna 2</td>
+    <td>Si el tamaño del mensaje es reducido, puede haber restricciones en la cantidad de datos que se pueden transmitir.</td>
+    <td>Menor eficiencia </td>
   </tr>
 </table>
 
