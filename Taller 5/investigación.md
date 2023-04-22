@@ -7,3 +7,9 @@
 - **La compilación:** este proceso implica varias etapas, como análisis léxico, análisis sintáctico, optimización y generación de código. Dependiendo del tamaño del programa y la complejidad del código, la compilación puede llevar mucho tiempo y requerir una cantidad significativa de recursos del sistema.
 
 En ambos casos, la planificación a medio plazo puede ayudar a mejorar la eficiencia del sistema operativo al equilibrar la cantidad de procesos que compiten por los recursos y al liberar memoria cuando es necesario.
+
+## 3.	Describa las acciones que toma el kernel para el cambio de contexto entre procesos.
+1.	El kernel guarda el estado actual del proceso en ejecución, incluyendo los valores de los registros de la CPU, el estado del proceso y la información de gestión de memoria. Este contexto se almacena en la estructura de control de procesos (PCB).
+2.	El kernel carga el contexto almacenado del nuevo proceso que se ha decidido ejecutar en la CPU. Esto incluye la restauración de los valores de los registros de la CPU y la información de gestión de memoria del nuevo proceso.
+3.	El kernel actualiza sus estructuras de datos internas para reflejar el cambio de contexto. Por ejemplo, actualiza la lista de procesos en espera y la cola de procesos listos. 
+4.	Una vez que se ha cargado el contexto del nuevo proceso y se han actualizado las estructuras de datos del kernel, el kernel reanuda la ejecución del nuevo proceso en la CPU.
