@@ -5,4 +5,5 @@
 ## 2.	Caracterice dos procesos que se puedan considerar a mediano plazo.
 - **La gestión de E/S:** implica la transferencia de datos entre dispositivos de E/S y la memoria principal, lo que también puede requerir la interrupción temporal de los procesos que utilizan dichos dispositivos.
 - **La compilación:** este proceso implica varias etapas, como análisis léxico, análisis sintáctico, optimización y generación de código. Dependiendo del tamaño del programa y la complejidad del código, la compilación puede llevar mucho tiempo y requerir una cantidad significativa de recursos del sistema.
+
 En ambos casos, la planificación a medio plazo puede ayudar a mejorar la eficiencia del sistema operativo al equilibrar la cantidad de procesos que compiten por los recursos y al liberar memoria cuando es necesario.
