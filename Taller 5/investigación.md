@@ -20,8 +20,73 @@ En ambos casos, la planificación a medio plazo puede ayudar a mejorar la eficie
 - Por otro lado, hablando de comunicación asíncrona, permite una mayor eficiencia y escalabilidad, ya que el emisor y el receptor pueden trabajar independientemente. Además, no bloquea los procesos mientras se espera una respuesta, lo que mejora el rendimiento. Sin embargo, puede ser más difícil de implementar y entender, y la integridad de los datos puede ser más difícil de garantizar. También puede ser menos efectivo en situaciones donde se requiere una respuesta inmediata.
 
 ## 5.	Defina las ventajas y desventajas desde el punto de vista del OS para envío por copia y envío por referencia.
+<table>
+  <tr>
+    <th>Envío por copia </th>
+    <th>Envío por referencia</th>
+  </tr>
+  <tr>
+    <td>Ventajas</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>La seguridad es mayor en el envío por copia ya que el proceso receptor recibe una copia de los datos, lo que evita que pueda modificar directamente los datos del proceso emisor.</td>
+    <td>Se requiere menos uso de recursos de memoria y CPU ya que no se realizan copias completas de los datos.</td>
+  </tr>
+  <tr>
+    <td>Los procesos emisor y receptor pueden trabajar de manera independiente y no necesitan compartir memoria directamente</td>
+    <td>Puede ser más eficiente que el envío por copia, especialmente cuando se trata de grandes cantidades de datos.</td>
+  </tr>
+  <tr>
+    <td>Desventajas</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Se requiere un mayor uso de recursos al enviar copias completas de los datos, lo cual puede resultar en un consumo elevado de memoria y CPU, especialmente si se trata de grandes cantidades de datos.</td>
+    <td>Presenta menor seguridad ya que el proceso receptor tiene acceso directo a los datos del proceso emisor y puede modificarlos sin restricciones</td>
+  </tr>
+  <tr>
+    <td>Se puede tardar más en realizar el envío de los datos debido a que se requiere copiar los datos completos en lugar de simplemente hacer referencia a ellos.</td>
+    <td>Los procesos emisor y receptor necesitan compartir memoria directamente, lo que puede restringir la flexibilidad del sistema operativo.</td>
+  </tr>
+</table>
+
+
+
 
 ## 6.	Defina las ventajas y desventajas desde el punto de vista del OS para mensajes de tamaño fijo y de tamaño variable.
+<table>
+  <tr>
+    <th>Columna 1</th>
+    <th>Columna 2</th>
+  </tr>
+  <tr>
+    <td>Fila 1, columna 1</td>
+    <td>Fila 1, columna 2</td>
+  </tr>
+  <tr>
+    <td>Fila 2, columna 1</td>
+    <td>Fila 2, columna 2</td>
+  </tr>
+  <tr>
+    <td>Fila 3, columna 1</td>
+    <td>Fila 3, columna 2</td>
+  </tr>
+  <tr>
+    <td>Fila 4, columna 1</td>
+    <td>Fila 4, columna 2</td>
+  </tr>
+  <tr>
+    <td>Fila 5, columna 1</td>
+    <td>Fila 5, columna 2</td>
+  </tr>
+  <tr>
+    <td>Fila 6, columna 1</td>
+    <td>Fila 6, columna 2</td>
+  </tr>
+</table>
+
+
 
 ## 7.	Describa los estados de un proceso. 
 - **Nuevo:** el proceso ha sido creado, pero aún no ha sido asignado a un procesador para su ejecución
