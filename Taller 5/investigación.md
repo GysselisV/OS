@@ -19,3 +19,15 @@ En ambos casos, la planificación a medio plazo puede ayudar a mejorar la eficie
 
 - Por otro lado, hablando de comunicación asíncrona, permite una mayor eficiencia y escalabilidad, ya que el emisor y el receptor pueden trabajar independientemente. Además, no bloquea los procesos mientras se espera una respuesta, lo que mejora el rendimiento. Sin embargo, puede ser más difícil de implementar y entender, y la integridad de los datos puede ser más difícil de garantizar. También puede ser menos efectivo en situaciones donde se requiere una respuesta inmediata.
 
+## 5.	Defina las ventajas y desventajas desde el punto de vista del OS para envío por copia y envío por referencia.
+
+## 6.	Defina las ventajas y desventajas desde el punto de vista del OS para mensajes de tamaño fijo y de tamaño variable.
+
+## 7.	Describa los estados de un proceso. 
+- **Nuevo:** el proceso ha sido creado, pero aún no ha sido asignado a un procesador para su ejecución
+- **Preparado:** el proceso está preparado para su ejecución, pero aún no se le ha asignado el procesador. En este estado, el proceso se encuentra en la cola de procesos listos a ser ejecutados.
+- **En ejecución:** Una vez que el procesador está disponible, el proceso pasa al estado En ejecución, lo que significa que el proceso está siendo ejecutado en el procesador asignado.
+- **En espera:** el proceso se encuentra temporalmente detenido porque está esperando que se produzca algún suceso externo, como la finalización de una operación de entrada/salida o la llegada de una señal de interrupción
+- **Terminado:** en este estado, el proceso ha completado todas las tareas que se le asignaron y se ha liberado la memoria que se había reservado para él.
+
+
