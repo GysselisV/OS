@@ -31,14 +31,15 @@ En ambos casos, la planificación a medio plazo puede ayudar a mejorar la eficie
 - **Terminado:** en este estado, el proceso ha completado todas las tareas que se le asignaron y se ha liberado la memoria que se había reservado para él.
 
 ## 8.	Que datos se encuentran en un PCB. 
-El PCB (bloque de control de procesos) contiene información importante para la gestión y control del proceso en el sistema operativo. Esto incluye: 
--Estado del proceso: indica el estado actual del proceso, como "en ejecución" o "bloqueado".
--Contador del programa: indica la dirección de la siguiente instrucción a ejecutar.
--Registros de la CPU: incluyen diferentes tipos de registros que almacenan información importante para el proceso.
--Información de planificación de la CPU: incluye la prioridad del proceso y cualquier otro parámetro necesario para la planificación de su ejecución.
--Información de gestión de memoria: incluye valores de registros base y límites, tablas de páginas o segmentos.
--Información contable: incluye estadísticas de uso del CPU, tiempo real utilizado, límites de tiempo asignados y número de proceso.
--Información del estado del I/O: incluye la lista de dispositivos de entrada/salida asignados al proceso y la lista de archivos abiertos.
+<p> El PCB (bloque de control de procesos) contiene información importante para la gestión y control del proceso en el sistema operativo. Esto incluye: </p>
+
+- **Estado del proceso:** indica el estado actual del proceso, como "en ejecución" o "bloqueado".
+- **Contador del programa:** indica la dirección de la siguiente instrucción a ejecutar.
+- **Registros de la CPU:** incluyen diferentes tipos de registros que almacenan información importante para el proceso.
+- **Información de planificación de la CPU:** incluye la prioridad del proceso y cualquier otro parámetro necesario para la planificación de su ejecución.
+- **Información de gestión de memoria:** incluye valores de registros base y límites, tablas de páginas o segmentos.
+- **Información contable:** incluye estadísticas de uso del CPU, tiempo real utilizado, límites de tiempo asignados y número de proceso.
+- **Información del estado del I/O:** incluye la lista de dispositivos de entrada/salida asignados al proceso y la lista de archivos abiertos.
 
 ## 9.	Describa un modelo de comunicación Cliente-Servidor
 <p> El modelo de comunicación Cliente-Servidor implica la participación de dos entidades independientes en la comunicación (el cliente y el servidor). El cliente es el que inicia la comunicación, y es responsable de solicitar el servicio que necesita. El servidor, por su parte, está diseñado para proporcionar los servicios solicitados por el cliente. Ambos se comunican a través de una red, que puede ser local o remota. Cada una de estas entidades se identifica mediante una dirección IP y un puerto, que juntos forman un punto terminal de la comunicación conocido como socket. </p>
