@@ -24,7 +24,7 @@ Sí, las variables globales **se comparten** entre los hilos de un proceso multi
 
 
 ## 6.	¿La memoria de pila se comparten entre los hilos de un proceso multihilo? ¿Si, no y por qué?
-No, la memoria de pila **no se comparte** entre los hilos de un proceso multihilo. Cada hilo tiene su propia pila de llamadas, que se utiliza para almacenar información sobre las funciones que se llaman en ese hilo. Las pilas de llamadas de los hilos no son accesibles para otros hilos, lo que permite que cada hilo ejecute funciones de forma independiente sin interferir en el estado de la pila de otros hilos. Cada hilo tiene su propia pila de llamadas, que se encuentra en su propio espacio de memoria privado. Cuando se llama a una función en un hilo, se reserva espacio en su pila de llamadas para almacenar las variables locales y otros datos necesarios para la función. Cuando la función devuelve un valor o finaliza su ejecución, la pila se desapila y se libera el espacio.
+No, la memoria de pila **no se comparte** entre los hilos de un proceso multihilo. Cada hilo tiene su propia pila de llamadas, que se utiliza para almacenar información sobre las funciones que se llaman en ese hilo. Las pilas de llamadas de los hilos no son accesibles para otros hilos, lo que permite que cada hilo ejecute funciones de forma independiente sin interferir en el estado de la pila de otros hilos.
 
 ## 7.	¿En qué ocasiones una solución multihilo que usa múltiples hilos del kernel proporciona mejor rendimiento que un solo hilo sobre un sistema monoprocesador?
 
