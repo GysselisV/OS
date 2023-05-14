@@ -15,7 +15,7 @@ El tiempo medio de procesamiento y el tiempo máximo de espera entran en conflic
 La utilización de los dispositivos I/O y la utilización de la CPU entran en conflicto en determinadas configuraciones porque cuando la CPU espera a los dispositivos I/O una respuesta para ejecutar los procesos, la CPU no es utilizada de manera completa. Esto puede ocurrir cuando el planificador asigna la CPU a procesos que tienen muchas operaciones de entrada y salida, como leer o escribir en un disco, una red o un teclado. Estos procesos tienen ráfagas de CPU cortas, es decir, que utilizan el procesador por poco tiempo antes de solicitar un servicio de I/O. Por ejemplo, si un programa está limitado por I/O, el planificador debe asegurarse de que el proceso no se bloquee esperando una operación de E/S. Si un programa está limitado por la CPU, el planificador debe asegurarse de que el proceso tenga suficiente tiempo de CPU para completar su trabajo. Por lo tanto, el planificador debe tratar de maximizar la utilización del CPU sin afectar la utilización de los dispositivos I/O.
 
 # 5.	Considere el siguiente conjunto de procesos, todos llegan al mismo tiempo en el orden del subíndice:
-![figura 1] (https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png](https://github.com/gysselis40/Sistemas-Operacionales/blob/main/Taller%208/tablas/punto%205.png?raw=true)
+![figura 1](https://github.com/gysselis40/Sistemas-Operacionales/blob/main/Taller%208/tablas/punto%205.png)
 
 Dibuje el diagrama de Gantt para FCFS, SJF, por prioridades (# de prioridad baja = a alta prioridad) y RR (cuanto = 1).
 
