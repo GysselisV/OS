@@ -21,7 +21,7 @@ Dibuje el diagrama de Gantt para FCFS, SJF, por prioridades (# de prioridad baja
 
 # 6.	¿Cuál es el tiempo de ejecución de cada proceso para cada algoritmo?
 El tiempo de ejecución de cada proceso para cada algoritmo es el mismo que su tiempo de ráfaga, es decir, el tiempo que necesita el proceso para completarse.
-
+![figura 2](https://github.com/gysselis40/Sistemas-Operacionales/blob/main/Taller%208/tablas/punto%206.png)
 # 7.	¿Cuál es el tiempo de espera de cada proceso para cada algoritmo?
 
 # 8.	¿Qué algoritmo puede dar lugar a bloqueos indefinidos?
