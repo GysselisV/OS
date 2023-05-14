@@ -1,1 +1,17 @@
-ola
+# 1.	¿Por qué es importante para un planificador diferenciar entre un programa limitado por I/O y por CPU?
+
+<p> Diferenciar entre programas limitados por I/O y por CPU es importante para asignar eficientemente los recursos del sistema y optimizar el rendimiento global. Un planificador inteligente puede priorizar la ejecución de programas limitados por I/O -ya que los procesos limitados por I/O tienen ráfagas de CPU cortas, lo que significa que utilizan por menos tiempo el procesador y salen de forma más rápida para que otro proceso pueda utilizarlo- mientras esperan operaciones de entrada/salida, aprovechando esos períodos de inactividad para ejecutar otros programas limitados por CPU. De esta manera, se puede lograr una mejor utilización de los recursos y reducir el tiempo de espera de los programas en general. </p>
+
+# 2.	¿Cómo entran en conflicto en determinadas configuraciones la utilización de CPU y tiempo de respuesta?
+
+La utilización de la CPU y el tiempo de respuesta pueden entrar en conflicto en determinadas configuraciones debido a las limitaciones de recursos y las prioridades de ejecución. Cuando una CPU no es utilizada debidamente por su sistema operativo, el tiempo de respuesta aumentaría debido a que el sistema operativo limita el tiempo de respuesta del procesador. Esto puede ocurrir por varias razones, como la falta de recursos del sistema o la presencia de malware. La planificación adecuada y el equilibrio de recursos son clave para evitar retrasos en el tiempo de respuesta y optimizar el rendimiento del sistema en su conjunto.
+
+# 3.	¿Cómo entran en conflicto en determinadas configuraciones el tiempo medio de procesamiento y tiempo máximo de espera?
+
+El tiempo medio de procesamiento y el tiempo máximo de espera entran en conflicto en determinadas configuraciones porque cuando los procesos tienen un tiempo de procesamiento muy corto, pueden estar mucho tiempo en espera. Esto puede ocurrir cuando el planificador asigna la CPU a procesos que tienen ráfagas de CPU largas o que tienen una prioridad más alta, dejando a otros procesos con ráfagas de CPU cortas en la cola de listos. Por ejemplo, si se establece un tiempo máximo de espera muy corto, los procesos que no se completen dentro de ese tiempo serán cancelados. Esto puede aumentar el tiempo medio de procesamiento. Por lo tanto, el planificador debe tratar de minimizar el tiempo máximo de espera sin afectar el tiempo medio de procesamiento de los procesos.
+
+# 4.	¿Cómo entran en conflicto en determinadas configuraciones la utilización de los dispositivos I/O y la utilización de la CPU?
+
+La utilización de los dispositivos I/O y la utilización de la CPU entran en conflicto en determinadas configuraciones porque cuando la CPU espera a los dispositivos I/O una respuesta para ejecutar los procesos, la CPU no es utilizada de manera completa. Esto puede ocurrir cuando el planificador asigna la CPU a procesos que tienen muchas operaciones de entrada y salida, como leer o escribir en un disco, una red o un teclado. Estos procesos tienen ráfagas de CPU cortas, es decir, que utilizan el procesador por poco tiempo antes de solicitar un servicio de I/O. Por ejemplo, si un programa está limitado por I/O, el planificador debe asegurarse de que el proceso no se bloquee esperando una operación de E/S. Si un programa está limitado por la CPU, el planificador debe asegurarse de que el proceso tenga suficiente tiempo de CPU para completar su trabajo. Por lo tanto, el planificador debe tratar de maximizar la utilización del CPU sin afectar la utilización de los dispositivos I/O.
+
+# 
