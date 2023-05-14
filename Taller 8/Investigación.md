@@ -20,6 +20,15 @@ La utilización de los dispositivos I/O y la utilización de la CPU entran en co
 
 Dibuje el diagrama de Gantt para FCFS, SJF, por prioridades (# de prioridad baja = a alta prioridad) y RR (cuanto = 1).
 
+![FCFS](https://github.com/gysselis40/Sistemas-Operacionales/blob/main/Taller%208/tablas/p5a.png)
+
+![SJF](https://github.com/gysselis40/Sistemas-Operacionales/blob/main/Taller%208/tablas/p5b.png)
+
+![PRIORIDAD](https://github.com/gysselis40/Sistemas-Operacionales/blob/main/Taller%208/tablas/p5c.png)
+
+![RR](https://github.com/gysselis40/Sistemas-Operacionales/blob/main/Taller%208/tablas/p5d.png)
+
+
 # 6.	¿Cuál es el tiempo de ejecución de cada proceso para cada algoritmo?
 El tiempo de ejecución de cada proceso para cada algoritmo es el mismo que su tiempo de ráfaga, es decir, el tiempo que necesita el proceso para completarse.
 
