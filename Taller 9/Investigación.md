@@ -37,9 +37,9 @@ La instrucción swap() es una operación atómica que cambia los contenidos de u
 
 - Cuando un proceso quiere entrar en su sección crítica, hace lo siguiente:
 
- -Pone su variable llave en verdadero.
+ - Pone su variable llave en verdadero.
 
- -Cambia el valor de su variable llave con el valor de la variable turno, usando la instrucción swap().
+ - Cambia el valor de su variable llave con el valor de la variable turno, usando la instrucción swap().
 
  - Si el valor devuelto por swap() es igual al número del proceso, significa que tiene el derecho a entrar en su sección crítica y lo hace.
 
@@ -47,9 +47,9 @@ La instrucción swap() es una operación atómica que cambia los contenidos de u
 
 - Cuando un proceso sale de su sección crítica, hace lo siguiente:
 
- -Pone su variable llave en falso.
+ - Pone su variable llave en falso.
 
- -Busca el siguiente proceso que tenga su variable llave en verdadero y le asigna el valor de la variable turno.
+ - Busca el siguiente proceso que tenga su variable llave en verdadero y le asigna el valor de la variable turno.
 
 Este mecanismo asegura la exclusión mutua, ya que solo un proceso puede tener el mismo valor en su variable llave y en la variable turno. También asegura el progreso en la ejecución, ya que, si varios procesos quieren entrar en su sección crítica, al menos uno de ellos podrá hacerlo. Finalmente, asegura la espera limitada, ya que cualquier proceso podrá entrar en su sección crítica en un tiempo finito, dependiendo del número de procesos que tengan su variable llave en verdadero.
 
@@ -63,21 +63,21 @@ Un servidor puede utilizar semáforos para restringir el número de conexiones c
 
 - Cuando el servidor recibe una solicitud de conexión de un cliente, hace lo siguiente:
 
- -Espera a que el semáforo limite esté en verde, es decir, que haya espacio disponible para una nueva conexión. Si el semáforo está en rojo, el servidor se bloquea hasta que se libere alguna conexión.
+ - Espera a que el semáforo limite esté en verde, es decir, que haya espacio disponible para una nueva conexión. Si el semáforo está en rojo, el servidor se bloquea hasta que se libere alguna conexión.
 
- -Una vez que el semáforo limite está en verde, el servidor lo reduce en uno, pasando a rojo si el valor resultante es cero.
+ - Una vez que el semáforo limite está en verde, el servidor lo reduce en uno, pasando a rojo si el valor resultante es cero.
 
- -El servidor aumenta la variable conexiones en uno, indicando que hay una conexión más abierta.
+ - El servidor aumenta la variable conexiones en uno, indicando que hay una conexión más abierta.
 
- -El servidor acepta la conexión del cliente y le asigna un socket para comunicarse con él.
+ - El servidor acepta la conexión del cliente y le asigna un socket para comunicarse con él.
 
 - Cuando el servidor termina de atender a un cliente y cierra la conexión, hace lo siguiente:
 
- -Reduce la variable conexiones en uno, indicando que hay una conexión menos abierta.
+ - Reduce la variable conexiones en uno, indicando que hay una conexión menos abierta.
 
- -Aumenta el semáforo limite en uno, pasando a verde si el valor resultante es positivo.
+ - Aumenta el semáforo limite en uno, pasando a verde si el valor resultante es positivo.
 
- -El servidor libera el socket que estaba usando con el cliente.
+ - El servidor libera el socket que estaba usando con el cliente.
 
 Este mecanismo permite al servidor controlar el número de conexiones concurrentes y evitar la sobrecarga del sistema. El semáforo limite actúa como un contador que regula el acceso al recurso compartido que son las conexiones.
 
