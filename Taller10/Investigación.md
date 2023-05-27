@@ -1,3 +1,4 @@
+## Respuestas Taller 10 
 ![imagen](https://github.com/gysselis40/Sistemas-Operacionales/blob/main/Taller10/t10.png)
 # 1. Considere la imagen, demuestre que las cuatro condiciones necesarias para que se produzca un interbloqueo se cumplen.
 
