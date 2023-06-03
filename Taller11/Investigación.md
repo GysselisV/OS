@@ -91,11 +91,11 @@ En general, el mecanismo de paginación requiere más memoria que el mecanismo d
 ![tabla1](https://github.com/gysselis40/Sistemas-Operacionales/blob/main/Taller11/images/t1.png)
 
 ¿Cuáles son las direcciones físicas para las siguientes direcciones lógicas? 
-1. 0. 430 
-2. 1. 10 
-3. 2. 500 
-4. 3. 400 
-5. 4. 112
+1. 0.430 
+2. 1.10 
+3. 2.500 
+4. 3.400 
+5. 4.112
 
 La dirección lógica se compone de un número de segmento y un desplazamiento dentro del segmento. La dirección física se obtiene sumando la base del segmento al desplazamiento, siempre que el desplazamiento sea menor que la longitud del segmento. Si el desplazamiento es mayor que la longitud del segmento se produce una violación de segmento y el acceso a memoria es inválido.
 
