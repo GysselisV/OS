@@ -98,11 +98,16 @@ En general, el mecanismo de paginación requiere más memoria que el mecanismo d
 5. 4. 112
 
 La dirección lógica se compone de un número de segmento y un desplazamiento dentro del segmento. La dirección física se obtiene sumando la base del segmento al desplazamiento, siempre que el desplazamiento sea menor que la longitud del segmento. Si el desplazamiento es mayor que la longitud del segmento se produce una violación de segmento y el acceso a memoria es inválido.
+
 Aplicando este método a las direcciones lógicas dadas y a la tabla de segmentos, se obtienen las siguientes direcciones físicas:
 a. 0.430: La dirección lógica corresponde al segmento 0 con un desplazamiento de 430. La base del segmento 0 es 219 y su longitud es 600. Como el desplazamiento es menor que la longitud, se suma la base al desplazamiento y se obtiene la dirección física: 219 + 430 = 649.
+
 b. 1.10: La dirección lógica corresponde al segmento 1 con un desplazamiento de 10. La base del segmento 1 es 2300 y su longitud es 14. Como el desplazamiento es menor que la longitud, se suma la base al desplazamiento y se obtiene la dirección física: 2300 + 10 = 2310.
+
 c. 2.500: La dirección lógica corresponde al segmento 2 con un desplazamiento de 500. La base del segmento 2 es 90 y su longitud es 100. Como el desplazamiento es mayor que la longitud, se produce una violación de segmento y el acceso a memoria es inválido.
+
 d. 3.400: La dirección lógica corresponde al segmento 3 con un desplazamiento de 400. La base del segmento 3 es 1327 y su longitud es 580. Como el desplazamiento es menor que la longitud, se suma la base al desplazamiento y se obtiene la dirección física: 1327 + 400 = 1727.
+
 e. 4.112: La dirección lógica corresponde al segmento 4 con un desplazamiento de 112. La base del segmento 4 es 1952 y su longitud es 96. Como el desplazamiento es mayor que la longitud, se produce una violación de segmento y el acceso a memoria es inválido.
 
 ![tabla2](https://github.com/gysselis40/Sistemas-Operacionales/blob/main/Taller11/images/t2.png)
