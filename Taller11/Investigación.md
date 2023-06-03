@@ -32,6 +32,7 @@ Para situar en memoria una serie de procesos de 212 KB, 417 KB, 112 KB y 426 KB 
     - Proceso 2 (417 KB): Se asigna al hueco de la partición 5 (388 KB)
     - Proceso 3 (112 KB): Se asigna a la partición 2 (500 KB)
     - Proceso 4 (426 KB): Se asigna al hueco de la partición 2 (388 KB)
+
 El uso más eficiente de la memoria lo logra el algoritmo de mejor ajuste, ya que coloca los procesos en los bloques de memoria que tienen el tamaño más adecuado para ellos, reduciendo el espacio sin asignar y consiguiendo que todos los procesos tengan un bloque asignado. Además, es el que menor fragmentación interna presenta. 
 
 # 5.	La mayoría de OS permiten a los programas asignar más memoria a su espacio de direcciones durante la ejecución. ¿Que se necesitaría para soportar la asignación dinámica de memoria en los siguientes esquemas? 
