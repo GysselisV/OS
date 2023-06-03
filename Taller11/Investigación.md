@@ -87,4 +87,4 @@ El mecanismo de paginación se compara con el de segmentación con respecto a la
 En general, el mecanismo de paginación requiere más memoria que el mecanismo de segmentación para las estructuras de producción de direcciones, ya que el número de páginas suele ser mayor que el número de segmentos y el tamaño de cada entrada suele ser similar o mayor. Sin embargo, esto puede variar según el diseño específico del sistema operativo y la organización de la memoria.
 
 # 9.	Considere la siguiente tabla de segmento:
-
+![tabla1](https://github.com/gysselis40/Sistemas-Operacionales/blob/main/Taller11/images/t1.png)
