@@ -9,7 +9,6 @@ El soporte por hardware requerido para implementar la paginación bajo se basan 
 La característica de copia durante la escritura es una técnica de optimización que consiste en retrasar la copia de una página hasta que se produzca una escritura sobre ella. Esta técnica es ventajosa en las siguientes circunstancias:
 
 - Cuando se quiere crear un proceso hijo mediante la llamada al sistema **fork**, se puede evitar copiar todo el espacio de direcciones del proceso padre al hijo y solo marcar las páginas como de solo lectura y compartidas entre ambos procesos. Así, solo se copiarán las páginas que sean modificadas por alguno de los procesos, ahorrando tiempo y espacio.
-
 - Cuando se quiere modificar un archivo mapeado en memoria, se puede evitar escribir los cambios directamente en el disco y solo marcar las páginas como de solo lectura. Así, solo se escribirán en el disco las páginas que sean modificadas por el proceso, reduciendo el número de operaciones de entrada/salida.
 
 3.	¿Cuál es el soporte de hardware requerido para implementar las características de copia durante escritura?
