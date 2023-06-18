@@ -32,7 +32,7 @@ Un caso en el que el algoritmo de sustitución de las páginas menos recientemen
 - Si se produce un fallo de página y la página se encuentra en el conjunto compartidos de marcos libres, ¿cómo puede generarse espacio libre para la nueva página solicitada? 
 - Si se produce un fallo de página y la página se encuentra en el conjunto compartido de marcos libres, ¿cómo se activa la página residente y cómo se gestiona el conjunto compartido de marcos libres para hacer sitio para la página solicitada?
 
-Respuestas: 
+**Respuestas:** 
 
 Si se produce un fallo de página y la página se encuentra en el conjunto compartido de marcos libres, se pueden dar dos casos:
 
@@ -57,7 +57,9 @@ Para las siguientes afirmaciones, indique si permitirá o es probable que permit
 -	Incrementar el grado de multiprogramación. 
 -	Instalar más memoria principal.
 -	Instalar un disco duro más rápidos.
-Respuestas: 
+
+**Respuestas:**
+
 - Instalar una CPU más rápida no permitirá mejorar la tasa de utilización de la CPU, ya que el cuello de botella está en el disco de paginación, que tiene una tasa de utilización muy alta. La CPU tendrá que esperar más tiempo a que el disco termine las operaciones de lectura y escritura de las páginas.
 - Instalar un disco de paginación de mayor tamaño tampoco permitirá mejorar la tasa de utilización de la CPU, ya que el problema no es el espacio disponible en el disco, sino la velocidad de acceso a las páginas. Un disco más grande no reducirá el número de fallos de página ni el tiempo de servicio de cada uno.
 - Incrementar el grado de multiprogramación es probable que empeore la tasa de utilización de la CPU, ya que aumentará la competencia por los recursos de memoria y disco. Esto provocará más fallos de página y más intercambios entre procesos, lo que reducirá el tiempo efectivo de ejecución de la CPU.
