@@ -51,7 +51,9 @@ Si se produce un fallo de página y la página no se encuentra en el conjunto co
 -	Uso de CPU 20% 
 -	Paginación de disco 97,7% 
 -	Otros dispositivos de I/O 5% 
+
 Para las siguientes afirmaciones, indique si permitirá o es probable que permita mejorar las tasas de utilización de la CPU. De razones para su respuesta. 
+
 -	Instalar una CPU más rápida. 
 -	Instalar un disco de paginación de mayor tamaño. 
 -	Incrementar el grado de multiprogramación. 
