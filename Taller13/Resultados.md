@@ -52,14 +52,14 @@ Este comando ejecuta un estrés sobre los procesos e hilos, usando 4 procesos pa
 
 - **Resultados de cpu**
 
-![figura 1](https://github.com/gysselis40/Sistemas-Operacionales/blob/main/Taller%208/tablas/punto%205.png)
+![figura 1]([https://github.com/gysselis40/Sistemas-Operacionales/blob/main/Taller%208/tablas/punto%205.png](https://github.com/gysselis40/Sistemas-Operacionales/blob/main/Taller13/CPU.png))
 
 
 - **Resultados de memoria**
 
-  ![figura 1](https://github.com/gysselis40/Sistemas-Operacionales/blob/main/Taller%208/tablas/punto%205.png)
+![figura 1]([https://github.com/gysselis40/Sistemas-Operacionales/blob/main/Taller%208/tablas/punto%205.png](https://github.com/gysselis40/Sistemas-Operacionales/blob/main/Taller13/MV.png))
 
 
 - **Resultados de procesos e hilos**
 
-![figura 1](https://github.com/gysselis40/Sistemas-Operacionales/blob/main/Taller%208/tablas/punto%205.png)
+![figura 1]([https://github.com/gysselis40/Sistemas-Operacionales/blob/main/Taller%208/tablas/punto%205.png](https://github.com/gysselis40/Sistemas-Operacionales/blob/main/Taller13/HILOS.png)https://github.com/gysselis40/Sistemas-Operacionales/blob/main/Taller13/HILOS.png)
