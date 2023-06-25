@@ -33,7 +33,7 @@ done
 
 Este comando ejecuta un estrés sobre la memoria virtual (VM), usando 2 procesos que reservan cada uno 1 GB de memoria durante 60 segundos. El estrés consiste en acceder a la memoria de forma aleatoria y realizar operaciones de lectura y escritura. El comando también guarda la información sobre el tiempo de actividad del sistema antes y después del estrés, así como las métricas del estrés, en un archivo llamado output$i.txt, donde $i es el número de iteración del bucle for. Este comando se repite 5 veces para obtener diferentes muestras del estrés.
 
-- para *proceso de **hilos**:
+- para **proceso de hilos**:
 
 ```
   #!/bin/bash
