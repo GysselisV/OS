@@ -1,10 +1,10 @@
 ## Nombre y breve descripción de la herramienta.
 
-*stress-ng* es una herramienta que permite aplicar diferentes tipos de estrés a un sistema informático, con el objetivo de evaluar su desempeño, su estabilidad y su tolerancia a situaciones extremas. stress-ng ofrece una amplia gama de opciones para ajustar el tipo, el tiempo, la intensidad y la frecuencia de los estrés que se imponen sobre el sistema. stress-ng también brinda información sobre las medidas de cada estrés, como el número de operaciones efectuadas, el tiempo empleado y el consumo de recursos.
+**stress-ng** es una herramienta que permite aplicar diferentes tipos de estrés a un sistema informático, con el objetivo de evaluar su desempeño, su estabilidad y su tolerancia a situaciones extremas. stress-ng ofrece una amplia gama de opciones para ajustar el tipo, el tiempo, la intensidad y la frecuencia de los estrés que se imponen sobre el sistema. stress-ng también brinda información sobre las medidas de cada estrés, como el número de operaciones efectuadas, el tiempo empleado y el consumo de recursos.
 
 ## Los comandos creados con una descripción de lo que hace y porque lo hace.
 
-- Para *cpu*:
+- Para **cpu**:
   
 ```
 #!/bin/bash
@@ -19,7 +19,7 @@ done
 
 Este comando ejecuta un estrés sobre la CPU, usando 4 núcleos durante 60 segundos. El estrés consiste en realizar operaciones matemáticas complejas que requieren un alto uso de la CPU. El comando también guarda la información sobre el tiempo de actividad del sistema antes y después del estrés, así como las métricas del estrés, en un archivo llamado output$i.txt, donde $i es el número de iteración del bucle for. Este comando se repite 5 veces para obtener diferentes muestras del estrés.
 
-- Para *memoria*:
+- Para **memoria**:
   
 ```
   #!/bin/bash
@@ -33,7 +33,7 @@ done
 
 Este comando ejecuta un estrés sobre la memoria virtual (VM), usando 2 procesos que reservan cada uno 1 GB de memoria durante 60 segundos. El estrés consiste en acceder a la memoria de forma aleatoria y realizar operaciones de lectura y escritura. El comando también guarda la información sobre el tiempo de actividad del sistema antes y después del estrés, así como las métricas del estrés, en un archivo llamado output$i.txt, donde $i es el número de iteración del bucle for. Este comando se repite 5 veces para obtener diferentes muestras del estrés.
 
-- para *proceso de hilos*:
+- para *proceso de **hilos**:
 
 ```
   #!/bin/bash
