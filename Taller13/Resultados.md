@@ -33,7 +33,7 @@ done
 
 Este comando ejecuta un estrés sobre la memoria virtual (VM), usando 2 procesos que reservan cada uno 1 GB de memoria durante 60 segundos. El estrés consiste en acceder a la memoria de forma aleatoria y realizar operaciones de lectura y escritura. El comando también guarda la información sobre el tiempo de actividad del sistema antes y después del estrés, así como las métricas del estrés, en un archivo llamado output$i.txt, donde $i es el número de iteración del bucle for. Este comando se repite 5 veces para obtener diferentes muestras del estrés.
 
-- para **proceso de hilos**:
+- para **proceso e hilos**:
 
 ```
   #!/bin/bash
@@ -49,3 +49,17 @@ done
 Este comando ejecuta un estrés sobre los procesos e hilos, usando 4 procesos padre que crean cada uno un proceso hijo durante 60 segundos. El estrés consiste en crear y terminar procesos e hilos de forma rápida y repetitiva. El comando también guarda la información sobre el tiempo de actividad del sistema antes y después del estrés, así como las métricas del estrés, en un archivo llamado output$i.txt, donde $i es el número de iteración del bucle for. Este comando se repite 5 veces para obtener diferentes muestras del estrés.
 
 ##  compare los resultados y explique según su criterio el comportamiento de las pruebas
+
+- **Resultados de cpu**
+
+![figura 1](https://github.com/gysselis40/Sistemas-Operacionales/blob/main/Taller%208/tablas/punto%205.png)
+
+
+- **Resultados de memoria**
+
+  ![figura 1](https://github.com/gysselis40/Sistemas-Operacionales/blob/main/Taller%208/tablas/punto%205.png)
+
+
+- **Resultados de procesos e hilos**
+
+![figura 1](https://github.com/gysselis40/Sistemas-Operacionales/blob/main/Taller%208/tablas/punto%205.png)
