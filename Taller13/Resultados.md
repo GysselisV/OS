@@ -84,5 +84,7 @@ De los resultados anteriores se puede observar que:
 
 
 
--	El tipo de estrés que tiene menor variabilidad en los bogo ops/s (usr+sys time) es el de memoria, seguido por el de CPU y luego el de hilos. Esto significa que el estrés de memoria tiene un rendimiento real más consistente y estable que los otros dos tipos, si se mide con el tiempo consumido dentro del proceso y del kernel. 
+-	El tipo de estrés que tiene menor variabilidad en los bogo ops/s (usr+sys time) es el de memoria, seguido por el de CPU y luego el de hilos. Esto significa que el estrés de memoria tiene un rendimiento real más consistente y estable que los otros dos tipos, si se mide con el tiempo consumido dentro del proceso y del kernel.
+
+  
 De manera general, se puede decir que el tipo de estrés que tiene mejor rendimiento y consistencia es el de memoria, mientras que el que tiene peor rendimiento y consistencia es el de hilos. Esto se puede deber a que el estrés de memoria es más simple y eficiente que los otros dos tipos, ya que solo usa dos procesos con una cantidad fija de memoria y realiza operaciones rápidas de lectura y escritura. En cambio, el estrés de hilos es más complejo e ineficiente que los otros dos tipos, ya que usa cuatro procesos padre que crean cada uno un proceso hijo y realiza operaciones lentas de creación y terminación de procesos e hilos.
